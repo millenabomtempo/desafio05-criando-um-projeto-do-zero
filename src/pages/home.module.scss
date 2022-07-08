@@ -1,1 +1,59 @@
-// TODO
+.HomeContainer {
+  a {
+    display: block;
+    margin-top: 48px;
+  }
+
+  strong {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--heading);
+    margin-bottom: 12px;
+    transition: color ease-in 0.2s;
+
+    &:hover {
+      color: var(--highlighy);
+    }
+  }
+
+  p {
+    font-size: 18px;
+    color: var(--body);
+    margin-bottom: 24px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--highlighy);
+    margin-top: 64px;
+    transition: filter ease-in 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+
+  time, span {
+    font-size: 14px;
+    color: var(--info);
+
+    display: flex;
+    align-items: center;
+  }
+
+  time {
+    margin-right: 24px;
+  }
+
+  svg {
+    margin-right: 8px;
+  }
+}
